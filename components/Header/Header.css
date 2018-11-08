@@ -1,0 +1,37 @@
+.header-style{
+  text-align: center;
+  color: black;/*文字色*/
+  border: solid 3px black;/*線色*/
+  padding: 0.5em;/*文字周りの余白*/
+  border-radius: 0.5em;/*角丸*/
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.input-style{
+  height: auto;
+  width: auto;
+  text-align: center;
+}
+.input-style input[type=text]{
+  webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    outline: none;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    background: #fff;
+    border: 1px solid #ccc;
+    color: black;
+    font: 95% Arial, Helvetica, sans-serif;
+}
+.input-style input[type=text]:focus{
+  box-shadow: 0 0 5px #43D1AF;
+    border: 2px solid #43D1AF;
+}
+.form-style{
+  text-align: center;
+}

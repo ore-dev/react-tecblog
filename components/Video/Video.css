@@ -1,0 +1,13 @@
+.video{
+  margin-top:20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.info{
+  text-align: auto;
+  border: solid 1px black;/*線色*/
+  padding: 0.5em;/*文字周りの余白*/
+  border-radius: 0.5em;/*角丸*/
+  margin:auto;
+  margin-top:20px;
+}
